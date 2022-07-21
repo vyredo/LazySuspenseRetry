@@ -1,5 +1,5 @@
 {
-  "name": "lsr_lazy_suspense_retry",
+  "name": "lazy_suspense_retry",
   "version": "0.1.0",
   "description": "A utility library to help with lazy load",
   "source": "src/index.tsx",

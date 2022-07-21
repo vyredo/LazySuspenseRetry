@@ -20,7 +20,7 @@ export function lazySuspenseRetry<T extends ComponentType<any>>(
   }>,
   opt?: LazySuspenseRetryOption
 ) {
-  const loader = opt?.loader || <></>
+  const loader = opt?.loader ?? lazySuspenseRetry.defaultOption.loader
   const crashPlaceholder = opt?.crashPlaceholder || lazySuspenseRetry.defaultOption.crashPlaceholder
   const retriesLeft = opt?.maxRetryAttempt ?? lazySuspenseRetry.defaultOption.maxRetryAttempt
   const interval = opt?.interval ?? lazySuspenseRetry.defaultOption.interval
