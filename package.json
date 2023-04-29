@@ -1,6 +1,6 @@
 {
   "name": "lazy_suspense_retry",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A utility library to help with lazy load",
   "source": "src/index.tsx",
   "main": "dist/index.js",
